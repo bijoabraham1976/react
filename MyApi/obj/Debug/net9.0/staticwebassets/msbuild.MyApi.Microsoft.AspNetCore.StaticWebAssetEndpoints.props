@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MyApi/uploads/banner.6pm9709msg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\banner.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6pm9709msg"},{"Name":"integrity","Value":"sha256-1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE="},{"Name":"label","Value":"_content/MyApi/uploads/banner.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"211216"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:19:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyApi/uploads/banner.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\banner.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"211216"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:19:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyApi/uploads/BijoResume.docx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\BijoResume.docx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wAYBP\u002BF1UcVPSs4wIsZqPk22sVqr8aoIGI\u002BmbRuLSlI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"37845"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u0022wAYBP\u002BF1UcVPSs4wIsZqPk22sVqr8aoIGI\u002BmbRuLSlI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:16:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyApi/uploads/BijoResume.gopf35g73n.docx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\BijoResume.docx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gopf35g73n"},{"Name":"integrity","Value":"sha256-wAYBP\u002BF1UcVPSs4wIsZqPk22sVqr8aoIGI\u002BmbRuLSlI="},{"Name":"label","Value":"_content/MyApi/uploads/BijoResume.docx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37845"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u0022wAYBP\u002BF1UcVPSs4wIsZqPk22sVqr8aoIGI\u002BmbRuLSlI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:16:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

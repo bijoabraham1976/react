@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
+      "PackagePath": "staticwebassets\\uploads\\BijoResume.docx"
+    },
+    {
+      "Id": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\banner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banner.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyApi.props",
+      "PackagePath": "build\\MyApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyApi.props",
+      "PackagePath": "buildMultiTargeting\\MyApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyApi.props",
+      "PackagePath": "buildTransitive\\MyApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

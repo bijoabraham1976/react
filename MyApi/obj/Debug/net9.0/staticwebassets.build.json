@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "CdiplTAH6tPaF+B/8dO59Ed95uyRn5RWP/hE+qdM4hA=",
+  "Source": "MyApi",
+  "BasePath": "_content/MyApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyApi\\wwwroot",
+      "Source": "MyApi",
+      "ContentRoot": "D:\\Reactcore3\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\banner.jpg",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Reactcore3\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "uploads/banner#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pm9709msg",
+      "Integrity": "1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\banner.jpg"
+    },
+    {
+      "Identity": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Reactcore3\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "uploads/BijoResume#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gopf35g73n",
+      "Integrity": "wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\BijoResume.docx"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/banner.6pm9709msg.jpg",
+      "AssetFile": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pm9709msg"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/banner.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/banner.jpg",
+      "AssetFile": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/BijoResume.docx",
+      "AssetFile": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:16:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/BijoResume.gopf35g73n.docx",
+      "AssetFile": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:16:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gopf35g73n"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/BijoResume.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "uploads/BijoResume.docx",
+      "AssetFile": "uploads/BijoResume.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:16:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/BijoResume.gopf35g73n.docx",
+      "AssetFile": "uploads/BijoResume.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:16:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gopf35g73n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/BijoResume.docx"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/banner.6pm9709msg.jpg",
+      "AssetFile": "uploads/banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:19:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pm9709msg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/banner.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/banner.jpg",
+      "AssetFile": "uploads/banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "211216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 08:19:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1q3IQzgwvlilYMy30L63AKZ/wJxyLO6ylsD7Lzn3DPE="
+        }
+      ]
+    }
+  ]
+}
