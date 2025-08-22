@@ -141,17 +141,17 @@ export default function ContactForm() {
   return (
     <div>
       <Navbar />
-      <div className="p-8 max-w-5xl mx-auto">
+      <div className="p-8 max-w-5xl mx-auto bg-white">
         <h2 className="text-2xl font-bold mb-4">{form.Id ? "Edit Contact" : "Add Contact"}</h2>
-        <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-6 bg-white shadow-md p-6 rounded-lg">
+        <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white shadow-md p-6 rounded-lg">
 
           <input
-            type="text"
+            type="text"           
             name="Name"
             placeholder="Name"
             value={form.Name}
             onChange={handleChange}
-            className="border p-3 rounded"
+            className="border p-3 rounded w-full"
             required
           />
 
@@ -161,7 +161,7 @@ export default function ContactForm() {
             placeholder="Email"
             value={form.Email}
             onChange={handleChange}
-            className="border p-3 rounded"
+            className="border p-3 rounded w-full"
             required
           />
 
@@ -170,7 +170,7 @@ export default function ContactForm() {
             name="CountryId"
             value={form.CountryId}
             onChange={handleChange}
-            className="border p-3 rounded"
+            className="border p-3 rounded w-full"
             required
           >
             <option value="">Select Country</option>
@@ -186,7 +186,7 @@ export default function ContactForm() {
             name="StateId"
             value={form.StateId}
             onChange={handleChange}
-            className="border p-3 rounded"
+            className="border p-3 rounded w-full"
             required
           >
             <option value="">Select Province</option>
@@ -198,7 +198,7 @@ export default function ContactForm() {
           </select>
 
           {/* Sex Radio */}
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-6 col-span-1 md:col-span-2">
             <label className="flex items-center space-x-2">
               <input
                 type="radio"
@@ -236,7 +236,7 @@ export default function ContactForm() {
           </div>
 
           {/* Date of Birth */}
-          <div className="col-span-2">
+          <div  className="col-span-1 md:col-span-2">
             <label className="block mb-1 font-semibold">Date of Birth</label>
             <DatePicker
               selected={form.Dob ? new Date(form.Dob) : null}
@@ -257,12 +257,12 @@ export default function ContactForm() {
             placeholder="Address"
             value={form.Address}
             onChange={handleChange}
-            className="border p-3 rounded col-span-2"
+            className="border p-3 rounded w-full col-span-1 md:col-span-2" 
             rows="2"
           />
 
           {/* Save / Cancel Button */}
-          <div className="col-span-2 flex space-x-4">
+          <div className="col-span-1 md:col-span-2 flex flex-col md:flex-row gap-4">
             <button
               type="submit"
               className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600"
@@ -283,6 +283,8 @@ export default function ContactForm() {
 
         {/* Contact List */}
         <h2 className="text-2xl font-bold mt-8 mb-4">Contact List</h2>
+        <div className="overflow-x-auto">
+  <table className="w-full border-collapse border border-gray-300 text-sm"></table>
         <table className="w-full border-collapse border border-gray-300">
           <thead className="bg-gray-100">
             <tr>
@@ -328,6 +330,7 @@ export default function ContactForm() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
     </div>
   );

@@ -167,3 +167,4 @@ D:\Reactcore3\MyApi\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 D:\Reactcore3\MyApi\bin\Debug\net9.0\MailKit.dll
 D:\Reactcore3\MyApi\bin\Debug\net9.0\MimeKit.dll
 D:\Reactcore3\MyApi\bin\Debug\net9.0\MyApi.staticwebassets.runtime.json
+D:\Reactcore3\MyApi\obj\Debug\net9.0\MyApi.sourcelink.json
