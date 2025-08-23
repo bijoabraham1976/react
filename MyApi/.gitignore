@@ -23,3 +23,6 @@ Thumbs.db
 
 # Code coverage output
 coverage/
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
