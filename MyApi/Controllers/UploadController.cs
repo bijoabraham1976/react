@@ -40,5 +40,32 @@ namespace MyApi.Controllers
 
             return Ok(new { url = fileUrl });
         }
+
+        [HttpPost("uploadfile")]
+public async Task<IActionResult> Uploadfile([FromForm] IFormFile file)
+{
+    if (file == null || file.Length == 0)
+        return BadRequest("No file uploaded.");
+
+    var uploadsPath = Path.Combine(_env.WebRootPath, "uploads");
+    if (!Directory.Exists(uploadsPath))
+        Directory.CreateDirectory(uploadsPath);
+
+    var fileName = $"{Guid.NewGuid()}_{file.FileName}";
+    var filePath = Path.Combine(uploadsPath, fileName);
+
+    using (var stream = new FileStream(filePath, FileMode.Create))
+    {
+        await file.CopyToAsync(stream);
+    }
+
+    var fileUrl = $"/uploads/{fileName}";
+    return Ok(new { url = fileUrl });
+}
+
+
+
+
+
     }
 }

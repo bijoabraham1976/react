@@ -1,0 +1,45 @@
+CREATE TABLE slidergallery (
+    id integer NOT NULL DEFAULT nextval('photos_id_seq'::regclass),
+    filename text COLLATE pg_catalog."default" NOT NULL,
+    title text COLLATE pg_catalog."default",
+    description text COLLATE pg_catalog."default",
+    upload_date timestamp with time zone NOT NULL DEFAULT now(),
+    "position" integer NOT NULL DEFAULT 0,
+    url text COLLATE pg_catalog."default",
+    is_active boolean NOT NULL DEFAULT true,
+    tenant_id smallint,
+    CONSTRAINT slidergallery_pkey PRIMARY KEY (id)
+);
+
+I am planning to manage photos/images in  a slider through admin using the table mention above
+I am using svelte as frontend, go as backend and postgresql as DB dbname and such parameters fetch from env file in the project
+I need a form in the svelte, file location should be from path routes/slider/page.svelte(already there)
+Forms should have Photo Slider Management as title
+it must contain an input file to browse the image file
+it must contain a title, description and all necessary datas to fill on table slidergallery
+It should have button to Upload 
+On Upload click image should save to static/slider 
+file name should be suffixed with id and date uploaded
+
+There should be a gallery grid to show the uploaded file 
+There should be a column to delete,and edit
+on delete click status should update to 0
+On edit click corresponding data for the image from  table should populate on top form and ready to update
+grid should be display in the position order
+order can be changed by draging on the grid
+icon of the image should be display on grid and it should be of unique size wahtever it may be a uploaded size
+
+Make necessary update if some thing is ommitted in the prompt for creating and viewing gallery
+
+
+    at resolve (D:\OBSTenant\frontend\node_modules\@sveltejs\kit\src\runtime\server\respond.js:333:5)
+    at Object.eval [as handle] (D:\OBSTenant\frontend\node_modules\@sveltejs\kit\src\runtime\server\index.js:76:56)
+    at respond (D:\OBSTenant\frontend\node_modules\@sveltejs\kit\src\runtime\server\respond.js:330:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  status: 404,
+  text: 'Not Found'
+}
+
+
+
+	

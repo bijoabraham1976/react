@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\uploads\\banner.jpg"
     },
     {
+      "Id": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\download 2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\download 2.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CdiplTAH6tPaF+B/8dO59Ed95uyRn5RWP/hE+qdM4hA=",
+  "Hash": "0uPfchep2nC+5XD45lQ1B8WSsVqv8W2uYdGosA6u7ag=",
   "Source": "MyApi",
   "BasePath": "_content/MyApi",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\BijoResume.docx"
+    },
+    {
+      "Identity": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\download 2.jpg",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Reactcore3\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "uploads/download 2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9hc07gjm7p",
+      "Integrity": "02kvOI/VxUPtVjuFSNwdA8gMNcUgXCcZp2Yc4x0idUk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\download 2.jpg"
     }
   ],
   "Endpoints": [
@@ -221,6 +242,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wAYBP+F1UcVPSs4wIsZqPk22sVqr8aoIGI+mbRuLSlI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/download 2.9hc07gjm7p.jpg",
+      "AssetFile": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\download 2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"02kvOI/VxUPtVjuFSNwdA8gMNcUgXCcZp2Yc4x0idUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 01:59:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hc07gjm7p"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/download 2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-02kvOI/VxUPtVjuFSNwdA8gMNcUgXCcZp2Yc4x0idUk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/download 2.jpg",
+      "AssetFile": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\download 2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"02kvOI/VxUPtVjuFSNwdA8gMNcUgXCcZp2Yc4x0idUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Aug 2025 01:59:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-02kvOI/VxUPtVjuFSNwdA8gMNcUgXCcZp2Yc4x0idUk="
         }
       ]
     }
