@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
+      "Id": "D:\\Reactcoremysql\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
       "PackagePath": "staticwebassets\\uploads\\BijoResume.docx"
     },
     {
-      "Id": "D:\\Reactcore3\\MyApi\\wwwroot\\uploads\\banner.jpg",
+      "Id": "D:\\Reactcoremysql\\MyApi\\wwwroot\\uploads\\banner.jpg",
       "PackagePath": "staticwebassets\\uploads\\banner.jpg"
     },
     {

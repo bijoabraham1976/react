@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "RrjUx3viVITktHGYwsysy4LGDpJplhtL4S1HRo7vOCo=",
+  "Source": "MyApi",
+  "BasePath": "_content/MyApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyApi\\wwwroot",
+      "Source": "MyApi",
+      "ContentRoot": "C:\\Reactcoremysql\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Reactcoremysql\\MyApi\\wwwroot\\uploads\\banner.jpg",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Reactcoremysql\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "uploads/banner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\banner.jpg"
+    },
+    {
+      "Identity": "C:\\Reactcoremysql\\MyApi\\wwwroot\\uploads\\BijoResume.docx",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Reactcoremysql\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "uploads/BijoResume.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\BijoResume.docx"
+    }
+  ]
+}

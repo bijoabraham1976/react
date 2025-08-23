@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
-using System.Data;
+using MySql.Data.MySqlClient;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -18,20 +17,28 @@ public class AuthController : ControllerBase
     {
         var connectionString = _config.GetConnectionString("DefaultConnection");
 
-        using (SqlConnection conn = new SqlConnection(connectionString))
+        using (MySqlConnection conn = new MySqlConnection(connectionString))
         {
             conn.Open();
-            string query = "SELECT id, username, password FROM accounts WHERE username = @username AND password = @password";
-            using (SqlCommand cmd = new SqlCommand(query, conn))
+
+            // Correct SQL query for MySQL 8
+            string query = "SELECT id, username, password FROM accounts WHERE username = @username AND BINARY password = @password";
+
+            using (MySqlCommand cmd = new MySqlCommand(query, conn))
             {
                 cmd.Parameters.AddWithValue("@username", login.Username);
                 cmd.Parameters.AddWithValue("@password", login.Password);
 
-                using (SqlDataReader reader = cmd.ExecuteReader())
+                using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
                     if (reader.Read())
                     {
-                        return Ok(new { message = "Login successful", userId = reader["id"] });
+                        return Ok(new
+                        {
+                            message = "Login successful",
+                            userId = reader["id"],
+                            username = reader["username"]
+                        });
                     }
                     else
                     {

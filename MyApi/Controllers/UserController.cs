@@ -24,29 +24,28 @@ public class UserController : ControllerBase
 
     // POST: api/user
     [HttpPost]
-    public IActionResult AddUser([FromBody] User? user)
+public IActionResult AddUser([FromBody] User? user)
+{
+    if (user is null)
     {
-        Console.WriteLine("DEBUG Received:");
-        Console.WriteLine($"FirstName: {user?.FirstName}");
-        Console.WriteLine($"LastName: {user?.LastName}");
-
-        if (user is null)
-        {
-            return BadRequest("User payload is required.");
-        }
-
-        try
-        {
-            _context.Users.Add(user);
-            _context.SaveChanges();
-            return Ok(user);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine("ERROR: " + ex.Message);
-            return StatusCode(500, ex.Message);
-        }
+        return BadRequest("User payload is required.");
     }
+
+    // Make sure EF Core doesn't try to insert a specific Id
+    user.Id = 0; // Reset Id to let MySQL auto-increment handle it
+
+    try
+    {
+        _context.Users.Add(user);
+        _context.SaveChanges();
+        return Ok(user); // Will include the generated Id
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("ERROR: " + ex.Message);
+        return StatusCode(500, ex.Message);
+    }
+}
 
     // PUT: api/user/{id}
     [HttpPut("{id}")]
